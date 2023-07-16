@@ -1,0 +1,17 @@
+.mainNavigation {
+  margin: 0 0 0 60px;
+  position: relative;
+  bottom: -35px;
+}
+
+.mainNavigation ul li {
+  display: block;
+  float: left;
+  list-style-type: none;
+  border-radius: 35px;
+  margin: 32px 0 0 23px;
+  padding: 10px;
+}
+
+.mainNavigation ul li a {
+}
