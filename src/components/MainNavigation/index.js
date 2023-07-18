@@ -6,7 +6,7 @@ import classes from "./MainNavigation.module.css";
 import { nav } from "./items";
 
 import { useLocation } from "react-router-dom";
-import { Link as ScrollLink, scroller } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 // import { useEffect } from "react";
 
 function MainNavigation() {
