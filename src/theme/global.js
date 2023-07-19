@@ -5,4 +5,13 @@ export const global = {
     fontWeight: "400",
     fontSize: "18px",
   },
+  a: {
+    color: 'teal.500',
+    _hover: {
+      textDecoration: 'underline',
+    },
+  },
+  p: {
+    margin:"0px 0px"
+  }
 };

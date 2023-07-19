@@ -1,5 +1,5 @@
-import { Box, Text } from "@chakra-ui/react";
-import { ButtonRed } from "../../components/Buttton/ButtonRed";
+import { Box, Text, Button } from "@chakra-ui/react";
+
 
 function Footer() {
   return (
@@ -24,7 +24,7 @@ function Footer() {
       >
         <Box></Box>
         <Text>Пиши!</Text>
-        {/* <ButtonRed text={"Перейти в Telegram"} /> */}
+        <Button variant={'button-red'}>Перейти в Telegram</Button>
       </Box>
     </Box>
   );

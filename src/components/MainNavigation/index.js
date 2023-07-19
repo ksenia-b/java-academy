@@ -1,13 +1,10 @@
-import { Box, ListItem, Text, UnorderedList } from "@chakra-ui/react";
-// import { NavLink } from "react-router-dom";
-// import { ButtonCustom } from "../../../components/Buttton/ButtonCustom";
+import { Box, ListItem, UnorderedList } from "@chakra-ui/react";
 import { Button } from '@chakra-ui/react';
 import classes from "./MainNavigation.module.css";
 import { nav } from "./items";
 
 import { useLocation } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
-// import { useEffect } from "react";
 
 function MainNavigation() {
   const scrollLinkProps = {
@@ -34,7 +31,7 @@ function MainNavigation() {
             <ListItem>
               {" "}
               <ScrollLink key={item.link} {...scrollLinkProps} to={item.link}>
-                <Button>{item.label}</Button>
+                <Button  variant='button-custom' >{item.label}</Button>
               </ScrollLink>
             </ListItem>
           );

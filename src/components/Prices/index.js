@@ -1,5 +1,4 @@
-import { Box, Text } from "@chakra-ui/react";
-import { ButtonRed } from "../../components/Buttton/ButtonRed";
+import { Box, Text, Button } from "@chakra-ui/react";
 import Footer from "../Footer";
 
 function Prices() {
@@ -20,6 +19,7 @@ function Prices() {
         gap={"20px"}
         color={"white.900"}
         alignItems={"center"}
+        p={"20px 0px 20px 0px"}
       >
         <Box
           padding={"30px 40px"}
@@ -52,7 +52,7 @@ function Prices() {
           <Text>35 000 за новую профессию — это выгодная сделĸа!</Text>
         </Box>
 
-        {/* <ButtonRed text={"Начать учиться"} /> */}
+        <Button variant={"button-red"}>Начать учиться</Button>
       </Box>
 
       <Footer />

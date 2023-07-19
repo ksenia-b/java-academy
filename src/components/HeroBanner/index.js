@@ -7,7 +7,6 @@ function HeroBanner() {
   return (
     <Box>
       <Box
-        className="thisOne"
         display={"flex"}
         flexDirection={"column"}
         bg={"#302D3D"}
@@ -49,7 +48,7 @@ function HeroBanner() {
             Получи классную востребованную профессию и зарабатывай дома в
             удобное время
           </Text>
-          <Button>Начать учиться</Button>
+          <Button variant='button-red' >Начать учиться</Button>
         </Box>
         <MainNavigation />
       </Box>

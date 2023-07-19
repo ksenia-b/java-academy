@@ -18,7 +18,7 @@ import { extendTheme } from "@chakra-ui/react";
 const theme = extendTheme({
   styles: { global },
   colors,
-  // components,
+  components,
   fonts: {
     body: "Inter",
   },

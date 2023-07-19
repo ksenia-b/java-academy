@@ -19,7 +19,7 @@ function About() {
         m={"112px 0px 0px 67px"}
         fontSize={"60px"}
         fontWeight={"500"}
-        letterSpacing={"-0.06em"}
+        gap={"20px"}
       >Об обучении</Heading>
       <Box display={"flex"} flexDirection={"column"} gap={"30px"}>
 
@@ -64,7 +64,7 @@ function About() {
         </Box>
 
         <Box>
-          <Text fontWeight={"bold"}>Твои действия</Text>
+          <Text fontWeight={"bold"} p={"20px"}>Твои действия</Text>
           <Box display={"flex"} justifyContent={"center"} >
             <UnorderedList styleType={"none"} display={"flex"} color={"#FFFFFF"}  >
               <ListItem><Box display={"flex"} justifyContent={"space-between"}><Image /><Text bg={"#4B6FCB"} borderRadius={"20px"}  p={"46px 110px"} w={"100px"} h={"30px"} display={"flex"} justifyContent={"center"} alignItems={"center"}>смотришь леĸции</Text></Box></ListItem>
@@ -77,7 +77,7 @@ function About() {
         </Box>
 
         <Box>
-          <Text fontWeight={"bold"}>Ты получишь:</Text>
+          <Text fontWeight={"bold"} p={"20px"}>Ты получишь:</Text>
           <UnorderedList styleType={"none"} display={"flex"} flexDirection={"column"} gap={"10px"}>
             <ListItem display={"flex"} flexDirection={"row"} gap={"10px"}><Image src={plusSign} marginTop={"10px"}/><Text m={"0px"}>пожизненный доступ ĸ видеоуроĸам </Text></ListItem>
             <ListItem display={"flex"} flexDirection={"row"} gap={"10px"}><Image src={plusSign}  marginTop={"10px"}/><Text m={"0px"}>чат для учениĸов</Text></ListItem>
@@ -111,7 +111,7 @@ function About() {
          
           </Box>
 
-          <Box textTransform={"uppercase"} fontSize={"50px"} color={"#302D3D"} display={"flex"} flexDirection={"column"} alignItems={"center"} lineHeight={"50px"}>
+          <Box textTransform={"uppercase"} fontSize={"50px"} color={"#302D3D"} display={"flex"} flexDirection={"column"} alignItems={"center"} lineHeight={"50px"}  gap={"20px"}>
             <Text m={"0px"}>При создании АКадемии учтены</Text>
             <Text color={"#D0082C"} m={"0px"}>все теКущие требования</Text>
             <Text m={"0px"}>работодателей</Text>
