@@ -1,5 +1,4 @@
-import { Box, Text } from "@chakra-ui/react";
-import { Button } from '@chakra-ui/react';
+import { Box, Text, Button } from "@chakra-ui/react";
 import { Header } from "../../components/Header";
 import MainNavigation from "../../components/MainNavigation";
 
@@ -11,7 +10,8 @@ function HeroBanner() {
         flexDirection={"column"}
         bg={"#302D3D"}
         borderRadius={"20px"}
-        alignItems={"center"}>
+        alignItems={"center"}
+      >
         <Header />
         <Box
           color={"#DEDCE7"}
@@ -19,14 +19,16 @@ function HeroBanner() {
           fontWeight={500}
           lineHeight={"106px"}
           display={"flex"}
-          flexDirection={"column"}>
+          flexDirection={"column"}
+        >
           <Text m={"78px 0px 0px 58px"}>Становись</Text>
           <Text
             m={"0px 0px"}
             transform={"rotate(-2deg)"}
             flexDirection={"row"}
             display={"flex"}
-            alignItems={"center"}>
+            alignItems={"center"}
+          >
             <Text bg={"red"} w={"328px"} m={"0px 0px"}>
               {"{Java}"}
             </Text>
@@ -48,7 +50,7 @@ function HeroBanner() {
             Получи классную востребованную профессию и зарабатывай дома в
             удобное время
           </Text>
-          <Button variant='button-red' >Начать учиться</Button>
+          <Button variant="button-red">Начать учиться</Button>
         </Box>
         <MainNavigation />
       </Box>

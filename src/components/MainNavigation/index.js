@@ -1,5 +1,5 @@
 import { Box, ListItem, UnorderedList } from "@chakra-ui/react";
-import { Button } from '@chakra-ui/react';
+import { Button } from "@chakra-ui/react";
 import classes from "./MainNavigation.module.css";
 import { nav } from "./items";
 
@@ -31,7 +31,7 @@ function MainNavigation() {
             <ListItem>
               {" "}
               <ScrollLink key={item.link} {...scrollLinkProps} to={item.link}>
-                <Button  variant='button-custom' >{item.label}</Button>
+                <Button variant="button-custom">{item.label}</Button>
               </ScrollLink>
             </ListItem>
           );

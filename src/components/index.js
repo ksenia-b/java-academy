@@ -1,0 +1,13 @@
+export { About } from './About';
+export { Advantages } from './Advantages';
+export { Feedbacks } from './Feedbacks';
+export { Footer } from './Footer';
+export { Header } from './Header';
+export { HeroBanner } from './HeroBanner';
+export { Logo } from './Logo';
+export { MainContent } from './MainContent';
+export { MainNavigation } from './MainNavigation';
+export { Prices } from './Prices';
+export { Profile } from './Profile';
+export { RegFooter } from './RegFooter';
+export { StatusBar } from './StatusBar';

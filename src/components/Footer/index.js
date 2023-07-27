@@ -1,6 +1,5 @@
 import { Box, Text, Button } from "@chakra-ui/react";
 
-
 function Footer() {
   return (
     <Box
@@ -24,7 +23,7 @@ function Footer() {
       >
         <Box></Box>
         <Text>Пиши!</Text>
-        <Button variant={'button-red'}>Перейти в Telegram</Button>
+        <Button variant={"button-red"}>Перейти в Telegram</Button>
       </Box>
     </Box>
   );
