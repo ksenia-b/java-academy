@@ -20,7 +20,7 @@ function MainNavigation() {
 
   return (
     <Box className={classes.mainNavigation}>
-      <UnorderedList>
+      <UnorderedList  styleType={"none"}>
         {nav[0].content.map((item) => {
           console.log(
             "`${pathname}#${item.link}` = ",

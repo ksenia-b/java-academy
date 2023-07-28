@@ -1,16 +1,12 @@
-import { Box } from "@chakra-ui/react";
+import { MyPath } from "../MyPath";
+import { Projects } from "../Projects";
+
 
 export const MainContent = () => {
   return (
-    <Box
-      display={"flex"}
-      w="100%"
-      flexDirection={"row"}
-      justifyContent={"space-between"}
-      m={"40px 40px 0px 0px"}
-      bg={"red"}
-    >
-      MainContent
-    </Box>
+    <>
+      <MyPath/>
+      <Projects/>
+    </>
   );
 };

@@ -14,7 +14,7 @@ function App() {
         clientId={clientId}
         redirectUri={window.location.origin + "/profile"}
       >
-        <Router></Router>
+        <Router/>
       </Auth0Provider>
     </ChakraProvider>
   );

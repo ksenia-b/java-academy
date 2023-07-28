@@ -11,13 +11,13 @@ import {
   ModalCloseButton,
   useDisclosure,
 } from "@chakra-ui/react";
-
+import logo from "../../assets/i/logo.svg";
 import { Logo } from "../Logo";
-import { Main } from "../../pages/Main";
+
 
 export const Header = () => {
-  const { isOpen, onOpen, onClose } = useDisclosure();
-  const { loginWithRedirect, logout, isAuthenticated } = useAuth0();
+  const { isOpen, onClose } = useDisclosure();
+  const { loginWithRedirect, isAuthenticated } = useAuth0();
 
   return (
     <Box
@@ -27,22 +27,16 @@ export const Header = () => {
       justifyContent={"space-between"}
       m={"40px 40px 0px 0px"}
     >
-      <Logo />
+      <Logo src={logo} m={"20px 0px 0px 60px"} link={"/"}/>
       <Box display={"flex"} gap={"20px"}>
         {/* <Button onClick={onOpen} >Логин</Button> */}
         {!isAuthenticated && (
           <Button
             onClick={() => {
-              loginWithRedirect(
-     
-              );
-            }}
-          >
-            Логин
-          </Button>
+              loginWithRedirect( );
+            }} > Логин</Button>
         )}
  
-
         <Button>Регистрация</Button>
       </Box>
 
@@ -70,13 +64,13 @@ const LoginButton = () => {
 
   return (
     !isAuthenticated && (
-      <button
+      <Button
         onClick={() => {
           loginWithRedirect();
         }}
       >
         Sign In
-      </button>
+      </Button>
     )
   );
 };

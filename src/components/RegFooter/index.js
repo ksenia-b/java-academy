@@ -1,4 +1,4 @@
-import { Box } from "@chakra-ui/react";
+import { Box, ListItem, UnorderedList } from "@chakra-ui/react";
 
 export const RegFooter = () => {
   return (
@@ -7,10 +7,14 @@ export const RegFooter = () => {
       w="100%"
       flexDirection={"row"}
       justifyContent={"space-between"}
-      m={"40px 40px 0px 0px"}
-      bg={"blue"}
+      p={"30px"}
+      bg={"#302D3D"}
     >
-      RegFooter
+      <UnorderedList display={"flex"} gap={7} color={"#fff"}  styleType={"none"} fontSize={"12px"}>
+        <ListItem>Копирайт</ListItem>
+        <ListItem>поддержка?</ListItem>
+      </UnorderedList>
+
     </Box>
   );
 };
